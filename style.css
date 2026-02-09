@@ -29,8 +29,16 @@ h3 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.65rem;
   margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.1rem;
 }
 
 .tagline {
@@ -81,6 +89,10 @@ hr {
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.45rem;
+  }
+
+  h2 {
+    font-size: 1.15rem;
   }
 }
