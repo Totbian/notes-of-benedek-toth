@@ -82,6 +82,12 @@ hr {
   margin: 2rem 0;
 }
 
+footer {
+  margin-top: 2rem;
+  color: GrayText;
+  font-size: 0.95rem;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 17px;
