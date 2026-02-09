@@ -85,7 +85,8 @@ hr {
 footer {
   margin-top: 2rem;
   color: GrayText;
-  font-size: 0.95rem;
+  font-size: 0.72rem;
+  opacity: 0.8;
 }
 
 @media (max-width: 600px) {
