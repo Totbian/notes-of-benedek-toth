@@ -1,0 +1,86 @@
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem 3rem;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background: Canvas;
+  color: CanvasText;
+}
+
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: LinkText;
+}
+
+time {
+  color: GrayText;
+  font-size: 0.95rem;
+}
+
+article {
+  margin-top: 2rem;
+}
+
+.back-link {
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid GrayText;
+  opacity: 0.35;
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 17px;
+    padding-top: 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+}
